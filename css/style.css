@@ -98,6 +98,7 @@ header .button {
     background-image: linear-gradient(180deg,
             rgba(148, 250, 150, 1)10%,
             rgba(222, 255, 223, 1)90%);
+    position: relative;
 }
 
 .featured h3 {
@@ -134,26 +135,21 @@ header .button {
 .featuredfigures figcaption {
     position: relative;
     margin-top: 2%;
-    text-align: center;
     color: #1d5c39;
 }
 
 .featuredfigures img {
     width: 100%;
+    padding-top: 20%;
 }
 
-.name {
+.featuredfigures .name {
     font-family: 'Varela Round', sans-serif;
     font-weight: 500;
     font-size: 30px;
+    float: left;
+    position: relative;
 }
-
-.type {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    padding-bottom: 20%;
-}
-
 
 
 /* featured bella */
